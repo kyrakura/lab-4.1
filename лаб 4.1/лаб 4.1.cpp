@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+using namespace std;
 
 int main() {
     int n = 10;  // ¬каж≥ть значенн€ n
@@ -29,10 +30,10 @@ int main() {
         S4 += (cos(i / 2.0) + pow(sin(i), 2)) / (1 + sin(i) * cos(i));
     }
 
-    std::cout << "while :" << S1 << std::endl;
-    std::cout << "do-while : " << S2 << std::endl;
-    std::cout << "for n++ : " << S3 << std::endl;
-    std::cout << "for n-- : " << S4 << std::endl;
+    cout<< "while :" << S1 << endl;
+    cout << "do-while : " << S2 << endl;
+    cout << "for n++ : " << S3 << endl;
+    cout << "for n-- : " << S4 << endl;
 
     return 0;
 }
