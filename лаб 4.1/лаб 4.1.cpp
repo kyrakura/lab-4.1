@@ -1,3 +1,8 @@
+// Lab_04_1.cpp
+// < Цай Девід >
+// Лабораторна робота № 4.1
+// Цикли.
+// Варіант 23
 #include <iostream>
 #include <cmath>
 using namespace std;
